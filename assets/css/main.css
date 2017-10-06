@@ -9,12 +9,14 @@ html, body {
 }
 
 .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  width: 50em;
 
-  margin-top: -50px;
-  margin-left: -100px;
+  overflow: hidden;
+
+  border: 1px solid gray;
 }
 
 #left {
@@ -23,5 +25,9 @@ html, body {
 }
 
 #right {
-  text-align: right;
+  text-align: center;
+  float: right;
+
+  width: 20em;
+  font-size: 22px;
 }
