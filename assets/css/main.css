@@ -15,8 +15,14 @@ html, body {
   width: 50em;
 
   overflow: hidden;
+}
 
+#boxed {
   border: 1px solid gray;
+}
+
+.centered p {
+  font-size: 22px;
 }
 
 #left {
