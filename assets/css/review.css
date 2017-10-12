@@ -1,1 +1,37 @@
+#gimage {
+  width: 100%;
+  height: 10em;
+}
 
+.centered h2 {
+  margin-bottom: 2px;
+}
+
+#info {
+  text-align: center;
+
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 14px;
+}
+
+#date {
+  padding-left: 10px;
+}
+
+#author {
+  padding-right: 10px;
+}
+
+
+#review {
+  margin-top: 20px;
+  padding: 10px;
+
+  overflow: hidden;
+  word-wrap: break-word;
+
+  border: 1px gray solid;
+}

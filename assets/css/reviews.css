@@ -1,0 +1,65 @@
+.centered {
+  width: 30em;
+}
+
+#reviews {
+  padding: 10px;
+
+  height: 55%;
+  overflow-y: auto;
+
+  border: 1px solid gray;
+}
+
+#reviews > h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.review {
+  margin-bottom: 10px;
+
+  border: 1px solid white;
+
+  overflow: hidden;
+}
+
+.review > #title {
+  float: left;
+  display: block;
+
+  padding: 8px;
+
+  padding-bottom: 1px;
+
+  font-size: 20px;
+  clear: left;
+
+  text-decoration: none;
+  color: aqua;
+}
+
+.review > #title:hover {
+  color: #13babf;
+}
+
+.review > #author {
+  float: left;
+  clear: left;
+
+  padding: 10px;
+}
+
+.review > #desc {
+  font-size: 14px;
+
+  width: 22em;
+  max-height: 60px;
+  overflow: hidden;
+  overflow-y: auto;
+
+  word-wrap: break-word;
+
+  margin-top: 10px;
+  margin-left: 28%;
+}
