@@ -1,0 +1,28 @@
+.centered {
+  width: 30em;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  float: left;
+  margin-top: 0;
+  margin-left: 4px;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin: 0 auto;
+}
+
+#contactinfo {
+  float: left;
+  text-align: left;
+}
