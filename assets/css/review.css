@@ -35,3 +35,34 @@
 
   border: 1px gray solid;
 }
+
+.prco {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+  padding: 2em;
+}
+
+.prco h4 {
+  padding: 0;
+  margin: 0;
+}
+
+
+.prco #pros {
+  width: 50%;
+
+  border-right: 1px solid gray;
+
+  float: left;
+  text-align: center;
+}
+
+.prco #cons {
+  width: 50%
+
+  float: right;
+  text-align: center;
+}
