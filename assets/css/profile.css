@@ -1,0 +1,33 @@
+div.binfo {
+  float: right;
+  padding: 1.82em;
+  height: 60%;
+  width: 34%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  overflow: hidden;
+  word-wrap: break;
+
+  /* TODO: Remove this / Change colors */
+  border: 1px solid red;
+}
+
+
+div.binfo > img#pfp {
+  width: 220px;
+  height: 200px;
+
+  padding-bottom: 10px;
+}
+
+div.binfo > span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+div.minfo {
+  width: 65%;
+}
