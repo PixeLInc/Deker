@@ -25,6 +25,14 @@
   padding-right: 10px;
 }
 
+#author a {
+  text-decoration: none;
+  color: aqua;
+}
+
+#author a:hover {
+  color: blue;
+}
 
 #review {
   margin-top: 20px;
