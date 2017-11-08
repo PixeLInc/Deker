@@ -7,6 +7,10 @@
     <link rel='stylesheet' type='text/css' href='../assets/css/nav.css'>
 
     <link rel='stylesheet' type='text/css' href='../assets/css/review.css'>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'> </script>
+
+    <script src='../assets/js/spoiler.js'> </script>
   </head>
 
   <body>
@@ -29,13 +33,11 @@
 
       <div id='review'>
         PlayerUnknown's Battelgrounds is an intense 100 player battle royale. You can fly in solo, with a friend, or even with 3 other friends if you dare. You start off in a main lobby, waiting for all the players to join in and once the timer runs down, the fun begins. You begin in a plane that is going to crash, you have to jump out onto this island you're flying above. The issue is, everyone around you wants to kill you! You have to land somewhere safe, with good loot so you can take the upperhand. If you wanted, you could just go all out and risk your life right when the game starts, or you can be a sneaky person and pick people off slowly. <br/> The gun selection in the game is okay. There aren't all tooo many guns in the game. There are currently, 21 main weapons, 4 pistols, 4 grenades, 4 melee weapons. There is also a vast range of attachments for your guns to get the best use out of the gun.<br>
-        <br/> For the assault rifles, you have:
-        <ul>
-          <li> AKM </li>
-          <li> M16A4 </li>
-          <li> M416 </li>
-          <li> SCAR-L </li>
-        </ul>
+        <br/>
+        <div class='spoiler' onclick='toggleSpoiler(this)'>
+          <span id='title'> Click me to show all of the gun stats </span>
+          <span id='content' style='display: none;'> <img width=60% alt='pubg gun stats' src='https://www.primagames.com/media/files/pubg-weapon-damage-chart.png/PRIMAP/resize/1200x/quality/80' /> </span>
+        </div>
 
         <div class='prco'>
 
@@ -60,7 +62,7 @@
       </div>
     </div>
 
-    <footer>
+    <!--<footer>
       <div id='links'>
         <a href='#'>Twitter</a> |
         <a href='#'>Facebook</a> |
@@ -68,6 +70,6 @@
       </div>
       <br/>
       Deker 2017-2018 &copy;
-    </footer>
+    </footer>-->
   </body>
 </html>

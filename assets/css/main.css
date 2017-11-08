@@ -37,3 +37,22 @@ html, body {
   width: 20em;
   font-size: 22px;
 }
+
+div .spoiler {
+  position: relative;
+}
+
+.spoiler > span#title {
+  color: springgreen;
+
+  display: block;
+}
+
+.spoiler > span#title:hover {
+  color: darkgreen;
+  cursor: pointer;
+}
+
+.spoiler > span#content {
+  border: 1px solid aqua;
+}
