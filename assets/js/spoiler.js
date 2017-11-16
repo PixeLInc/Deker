@@ -4,5 +4,6 @@ function toggleSpoiler(element) {
 
   sTitle.text(sTitle[0].innerHTML.contains('show') ? sTitle[0].innerHTML.replace('show', 'hide') : sTitle[0].innerHTML.replace('hide', 'show'));
 
-  content.slideToggle('slow', 'swing'); // TODO: Find a fix to make it display block and not inline-block;
+ //content.slideToggle('slow', 'swing'); // TODO: Find a fix to make it display block and not inline-block;
+  content[0].style.display = content[0].style.display == 'none' ? 'block' : 'none';
 }
