@@ -1,8 +1,12 @@
+.centered {
+  display: none;
+}
+
 div.binfo {
   float: right;
   padding: 1.82em;
   height: 60%;
-  width: 34%;
+  width: 30%;
 
   margin-left: auto;
   margin-right: auto;
@@ -11,9 +15,12 @@ div.binfo {
   word-wrap: break;
 
   /* TODO: Remove this / Change colors */
-  border: 1px solid red;
+  border: 1px solid white;
 }
 
+div.minfo > p > small {
+  font-size: 8px;
+}
 
 div.binfo > img#pfp {
   width: 220px;
@@ -29,5 +36,5 @@ div.binfo > span {
 
 
 div.minfo {
-  width: 65%;
+  width: 60%;
 }

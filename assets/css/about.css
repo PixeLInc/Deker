@@ -23,6 +23,11 @@ figcaption.imagecap {
   display: block;
 }
 
+figure > a {
+  color: white;
+  text-decoration: none;
+}
+
 .centered h2 {
   margin-bottom: 10px;
 }
