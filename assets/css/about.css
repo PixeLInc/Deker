@@ -9,6 +9,11 @@
 
 }
 
+div > p > a {
+  text-decoration: underline;
+  color: springgreen;
+}
+
 figure.picture {
   vertical-align: top;
   display: inline-block;

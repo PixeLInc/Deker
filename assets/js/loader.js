@@ -1,5 +1,5 @@
 function onReady(cb) {
-  var lId = window.setInterval(check, 1000); // Wait 1 second, heh
+  var lId = window.setInterval(check, 10); // Wait 1 second, heh
 
   function check() {
     var body = $('body');
