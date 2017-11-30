@@ -66,3 +66,13 @@ div .spoiler {
 .spoiler > span#content {
   border: 1px solid aqua;
 }
+
+
+/* SNEW */
+.snow {
+  top: -50px;
+  left: 0px;
+  position: absolute;
+  z-index: 200;
+  color: white;
+}
