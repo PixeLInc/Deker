@@ -2,20 +2,12 @@
 
 /* Start Snow */
 var disabled = false;
-var shouldBeStorm = false;
-
-if (Math.random() > 0.8)
-  shouldBeStorm = true;
+var shouldBeStorm = Math.random() > 0.8 ? true : false;
 
 console.log('Storm: ' + shouldBeStorm);
 
 function snowLoop() {
-  var randTime = null;
-
-  if (shouldBeStorm)
-    randTime = Math.floor(Math.random() * 50 * 3);
-  else
-    randTime = Math.floor(Math.random() * 300 * 2);
+  var randTime = shouldBeStorm ? Math.floor(Math.random() * 50 * 3) : Math.floor(Math.random() * 300 * 2);
 
   if (disabled)
     return;
