@@ -46,3 +46,29 @@ function letItSnow() {
 
 snowLoop();
 /* End Snow */
+
+/* DAD?.. Er- I mean SANTA? */
+const SANTA_IMAGE = './assets/images/santa.png';
+
+function createAndSlide() {
+  var santaDiv = $(`<div class='santaDiv'> </div>`);
+  var santa = $(`<img id='santa' src='${SANTA_IMAGE}' />`);
+
+  $('body').append(santaDiv);
+  santaDiv.append(santa);
+  santa.css('left', 0);
+
+  console.log(santaDiv.width());
+  console.log(santa.css('left'));
+
+  // TODO: fix
+  setInterval(function() {
+   santa.css('left', santa.css('left', (santa.css('left') + 10) + 'px'));
+  }, 100);
+}
+
+$('document').ready(function() {
+  createAndSlide();
+});
+
+/* Bye Santa */
