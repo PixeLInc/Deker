@@ -1,7 +1,12 @@
 // Christmas has snow.. right?
 
 /* Start Snow */
-var disabled = false;
+var disabled = true;
+
+if (disabled) {
+  return;
+}
+
 var shouldBeStorm = Math.random() > 0.8 ? true : false;
 
 console.log('Storm: ' + shouldBeStorm);
