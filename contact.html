@@ -10,6 +10,16 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'> </script>
     <script src='./assets/js/loader.js'> </script>
+
+    <style>
+      #map {
+        height: 370px;
+        width: 500px;
+        background-color: grey;
+
+        overflow: hidden;
+      }
+    </style>
   </head>
 
   <body>
@@ -44,8 +54,10 @@
       <div id='contactinfo'>
         Email: support@deker.com <br/>
         Phone: 1-800-888-5641 <br/>
-        Address: 534 Bernin Rd. PO# 34
+        Address: 145 Lodges Rd, Elderslie New South Wales
       </div>
+
+      <div id="map"> </div>
     </div>
 
     <footer>
@@ -57,5 +69,26 @@
       <br/>
       Deker 2017-2018 &copy;
     </footer>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: -34.0556261, lng: 150.72261888};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 20,
+          center: uluru
+        });
+
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+
+    <!-- Api key is restricted to certain ip's and stuff so don't even try thx -->
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpNBheYFAy6PylqSpxPLpYY2O7AbNSsLc&callback=initMap">
+      </script>
+
   </body>
 </html>

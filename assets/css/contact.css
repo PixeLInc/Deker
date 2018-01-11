@@ -25,4 +25,6 @@ form {
 #contactinfo {
   float: left;
   text-align: left;
+
+  display: block;
 }
