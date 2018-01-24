@@ -83,3 +83,17 @@ a:hover {
   float: right;
   text-align: center;
 }
+
+table {
+  position: relative;
+  margin: 0 auto;
+
+  right: 0;
+  left: 0;
+}
+
+table, th, td {
+  padding: 5px;
+  border-collapse: collapse;
+  border: 1px gray solid;
+}

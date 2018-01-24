@@ -8,10 +8,12 @@
     <link rel='stylesheet' type='text/css' href='assets/css/main.css'>
     <link rel='stylesheet' type='text/css' href='assets/css/nav.css'>
     <link rel='stylesheet' type='text/css' href='assets/css/footer.css'>
+    <link rel='stylesheet' type='text/css' href='assets/css/slideshow.css'>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'> </script>
     <script src='./assets/js/loader.js'> </script>
     <script src='./assets/js/jul.js'> </script>
+    <script src='./assets/js/slideshow.js'> </script>
   </head>
 
   <body>
@@ -32,7 +34,23 @@
     -->
 
     <div class='centered' id='boxed'>
+
+      <ul class='slides' id='left'>
+        <li class='slide current'>
+          <img id='left' src='assets/images/Deker-Logo.png' alt='Company Logo' width=300 height=350>
+        </li>
+        <li class='slide'>
+          <img src='assets/images/smiling.png' alt='Santa!' width=300 height=350>
+        </li>
+        <li class='slide'>
+          <img src='assets/images/game_reviews.png' width=300 height=350>
+        </li>
+
+        <a href='#' onclick='toggleSlideshow()'> Toggle Slideshow </a>
+      </ul>
+      <!-- old way to display pictures
       <img id='left' src='assets/images/Deker-Logo.png' alt='Company Logo' width=300 height=350 />
+      <!-->
 
       <p id='right'>
         Deker. A game review website powered by people like you! <br/>
